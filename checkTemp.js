@@ -4,7 +4,7 @@ function checkTemp(temp)
 
     if (temp < 20)
         message = "Cold"
-    else if (temp >=20)
+    else if (temp >=20 && temp<=30)
         message = "Normal"
     else
         message = "Hot"
